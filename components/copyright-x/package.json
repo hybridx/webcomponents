@@ -1,6 +1,6 @@
 {
   "name": "copyright-x",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple copyright component which will set year by default if not provided",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "hybridx"
+    "url": "git+https://github.com/hybridx/webcomponents.git"
   },
   "keywords": [
     "copyright",
     "webcomponent"
   ],
   "author": "Deepesh Nair <byakuyan58@gmail.com> (https://hybridx.github.io)",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/hybridx/webcomponents"
 }

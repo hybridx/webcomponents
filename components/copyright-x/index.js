@@ -1,14 +1,9 @@
-import html from 'html-template-tag';
-
 const copyright = document.createElement('template');
 
-copyright.innerHTML = html`
+copyright.innerHTML = `
 <div class="copyight-section">
 	<span class="copyright">
 			Copyright &copy; <span id="year"></span> <span id="name">All rights reserved</span>
-	</span>
-	<span class="internal-use">
-		Internal Use Only
 	</span>
 </div>
 <style>

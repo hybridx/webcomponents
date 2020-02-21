@@ -1,8 +1,8 @@
-# Welcome to copyright-x 👋
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+# Copyright-x 👋
+![Version](https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/hybridx/webcomponents#readme)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/hybridx/webcomponents/graphs/commit-activity)
-[![License: MIT](https://img.shields.io/github/license/hybridx/webcomponents-x)](https://github.com/hybridx/webcomponents/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/hybridx/webcomponents)](https://github.com/hybridx/webcomponents/blob/master/LICENSE)
 
 > A lib for web components(custom components) by hybridx
 
@@ -10,10 +10,20 @@
 
 ## Run tests
 
-```sh
+```
 npm run test
 ```
 ## Usage
+### Install hybridx webcomponents
+- Use npm package manager to install components
+```
+npm install --save copyright-x
+```
+- Include component
+```
+import 'copyright-x/index.js';
+```
+- Usage
 ```
 <copyright-x></copyright-x>
 
