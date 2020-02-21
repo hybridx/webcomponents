@@ -6,8 +6,6 @@
 
 > A lib for web components(custom components) by hybridx
 
-### 🏠 [Homepage](https://hybridx.github.io/webcomponents)
-
 ### ✨ [Demo](https://hybridx.github.io/webcomponents)
 
 ## Run tests
@@ -22,7 +20,7 @@ npm run test
 
 * Website: https://hybridx.github.io
 * Github: [@hybridx](https://github.com/hybridx)
-* LinkedIn: [@Deepesh Nair](https://linkedin.com/in/Deepesh Nair)
+* LinkedIn: [@Deepesh Nair](https://linkedin.com/in/hybridx)
 
 ## 🤝 Contributing
 
