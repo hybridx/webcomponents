@@ -5,7 +5,7 @@ const copyright = document.createElement('template');
 copyright.innerHTML = html`
 <div class="copyight-section">
 	<span class="copyright">
-			Copyright &copy; <span id="year"></span> <span id="name"></span>
+			Copyright &copy; <span id="year"></span> <span id="name">All rights reserved</span>
 	</span>
 	<span class="internal-use">
 		Internal Use Only
@@ -44,4 +44,4 @@ class OpCopyright extends HTMLElement {
 		}
 	}
 }
-window.customElements.define('op-copyright', OpCopyright);
+window.customElements.define('copyright-x', OpCopyright);
