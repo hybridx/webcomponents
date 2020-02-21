@@ -1,0 +1,28 @@
+{
+  "name": "webcomponents-x",
+  "version": "1.0.0",
+  "description": "A lib for web components(custom components) by hybridx",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hybridx/webcomponents.git"
+  },
+  "keywords": [
+    "web",
+    "webcomponents",
+    "components",
+    "componentsx",
+    "components-x",
+    "x",
+    "hybridx"
+  ],
+  "author": "hybridx <byakuyan58@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hybridx/webcomponents/issues"
+  },
+  "homepage": "https://github.com/hybridx/webcomponents#readme"
+}
