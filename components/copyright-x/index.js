@@ -3,8 +3,7 @@ const copyright = document.createElement('template');
 copyright.innerHTML = `
 <div class="copyight-section">
 	<span class="copyright">
-			Copyright &copy; <span id="year"></span> <span id="name">All rights reserved</span>
-	</span>
+			Copyright &copy; <span id="year"></span> <slot name="name">All rights reserved</slot>
 </div>
 <style>
 	.copyight-section {
