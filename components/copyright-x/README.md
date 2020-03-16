@@ -21,10 +21,26 @@ npm install --save copyright-x
 ```
 - Include component
 ```
-import 'copyright-x/index.js';
+import 'copyright-x/dist/copyright-x.js';
 ```
 - Usage
 ```
+<copyright-x></copyright-x>
+
+<copyright-x>
+  <span slot="name">hybridX</span>
+</copyright-x>
+
+<copyright-x year="2020">
+</copyright-x>
+```
+
+### To use it in React
+```
+<script>
+require('~/node_modules/copyright-x/dist/copyright-x.js);
+</script>
+
 <copyright-x></copyright-x>
 
 <copyright-x>
@@ -61,5 +77,4 @@ Copyright © 2020 [Deepesh Nair](https://github.com/hybridx).
 This project is [MIT](https://github.com/hybridx/webcomponents/blob/master/LICENSE) licensed.
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
 

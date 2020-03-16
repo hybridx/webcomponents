@@ -1,10 +1,12 @@
 {
   "name": "copyright-x",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple copyright component which will set year by default if not provided",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "dev": "webpack",
+    "build": "webpack",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,17 @@
   ],
   "author": "Deepesh Nair <byakuyan58@gmail.com> (https://hybridx.github.io)",
   "license": "MIT",
-  "homepage": "https://github.com/hybridx/webcomponents"
+  "homepage": "https://github.com/hybridx/webcomponents",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "jest": "^25.1.0",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "path": "^0.12.7",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
