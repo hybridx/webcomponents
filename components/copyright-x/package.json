@@ -1,6 +1,6 @@
 {
   "name": "copyright-x",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple copyright component which will set year by default if not provided",
   "main": "index.js",
   "scripts": {
