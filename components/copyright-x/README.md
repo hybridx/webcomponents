@@ -51,6 +51,36 @@ require('~/node_modules/copyright-x/dist/copyright-x.js);
 </copyright-x>
 ```
 
+### To use it in Angular
+- Install and import the component in app.module and add CUSTOM_ELEMENT_SCHEMA
+```
+import 'copyright-x/dist/copyright-x.js';
+@NgModule({
+  declarations: [
+    AppComponent,
+  ],
+  imports: [
+    BrowserModule,
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+```
+
+## Using style API
+- Pass using css variables 
+```
+<style>
+  copyright-x {
+    --fontSize: 1rem;
+    --fontColor: #72767B;
+  }
+</style>
+```
+
 ## Author
 
 👤 **Deepesh Nair**
