@@ -15,7 +15,7 @@ const style = `
 const html = `
 <div class="copyright-section">
 	<span class="copyright">
-			Copyright &copy; <span id="year"></span> <slot name="name">All rights reserved</slot>
+			Copyright &copy; <span id="year"></span> <slot name="name">All rights reserved.</slot>
 </div>`;
 
 copyright.innerHTML = `
