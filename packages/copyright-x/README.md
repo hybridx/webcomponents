@@ -38,7 +38,7 @@ import '@hybridxweb/copyright-x/dist/copyright-x';
 ### To use it in React
 ```
 <script>
-require('~/node_modules/copyright-x/dist/copyright-x.js);
+require('~/node_modules/@hybridxweb/copyright-x/dist/copyright-x);
 </script>
 
 <copyright-x></copyright-x>
