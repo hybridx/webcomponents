@@ -1,5 +1,5 @@
 {
-  "name": "webcomponents-x",
+  "name": "@hybridxweb/webcomponents-x",
   "version": "1.0.0",
   "description": "A lib for web components(custom components) by hybridx",
   "main": "index.js",
@@ -14,7 +14,6 @@
     "web",
     "webcomponents",
     "components",
-    "componentsx",
     "components-x",
     "x",
     "hybridx"
