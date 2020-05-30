@@ -21,7 +21,7 @@ npm install --save copyright-x
 ```
 - Include component
 ```
-import 'copyright-x/dist/copyright-x.js';
+import '@hybridxweb/copyright-x/dist/copyright-x';
 ```
 - Usage
 ```
@@ -54,7 +54,7 @@ require('~/node_modules/copyright-x/dist/copyright-x.js);
 ### To use it in Angular
 - Install and import the component in app.module and add CUSTOM_ELEMENT_SCHEMA
 ```
-import 'copyright-x/dist/copyright-x.js';
+import '@hybridxweb/copyright-x/dist/copyright-x';
 @NgModule({
   declarations: [
     AppComponent,
