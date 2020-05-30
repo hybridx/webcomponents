@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/hybridx/webcomponents.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "copyright",
     "webcomponent"
