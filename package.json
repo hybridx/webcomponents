@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/hybridx/webcomponents#readme",
   "devDependencies": {
-    "lerna": "^3.21.0"
+    "lerna": "5.5.2"
   }
 }
